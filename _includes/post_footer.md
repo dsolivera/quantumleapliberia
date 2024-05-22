@@ -1,3 +1,3 @@
 ***
 
-Contact me via [Twitter](http://twitter.com/solivera2g3).
+Contact me via [WhatsApp] +1 (650) 766-6866.

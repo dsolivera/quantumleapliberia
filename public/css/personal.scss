@@ -6,12 +6,12 @@ $heading-font: "Bitter", serif;
 
 $main-color: #515151;
 $link-color: #000034;
-$link-hover-color: #b78727;
+$link-hover-color: #0B6623;
 
 $main-back-color: #f4f5f5;
 $site-intro-color: #fff;
 $featured-project-box-back-color: #614385;
-$site-intro-back-fromColor: #000034;
+$site-intro-back-fromColor: #fff;
 $site-intro-back-toColor: #000034;
 
 @mixin keyframes($name) {
@@ -19,7 +19,7 @@ $site-intro-back-toColor: #000034;
   @-moz-keyframes #{$name} { @content; }
   @-ms-keyframes #{$name} { @content; }
   @-o-keyframes #{$name} { @content; }
-  @keyframes #{$name} { @content; } 
+  @keyframes #{$name} { @content; }
 }
 
 @mixin animation($name) {
@@ -27,7 +27,7 @@ $site-intro-back-toColor: #000034;
   -moz-animation: #{$name};
   -ms-animation: #{$name};
   -o-animation: #{$name};
-  animation: #{$name};      
+  animation: #{$name};
 }
 
 @mixin transition($transition-property, $transition-time, $method) {
@@ -82,6 +82,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1 {
   margin-top: .1rem;
+}
+h1 {
+  text-align: center;
 }
 h2 {
   margin-top: 10rem;
@@ -172,14 +175,14 @@ ul {
   @include transition(all, 0.2s, ease-out);
 
   &:hover {
-    color: $main-color;
+    color: $link-hover-color;
   }
 }
 
 #sidebar {
   padding: 10vh 0;
   text-align: center;
-  box-shadow: inset 6px 0 10px 1px #333; 
+  box-shadow: inset 6px 0 10px 1px #333;
   background-color: $main-color;
 
   ul {
@@ -251,33 +254,7 @@ ul {
   padding: 5vmin 10vmin;
 }
 
-.skill-logos {
-  height: 100vh;
 
-  .skill-logo-img {
-    margin: 1rem 0.5rem;
-    height: 50px;
-  }
-
-  .skill-logo-row {
-    text-align: center;
-    padding: 1rem 0;
-    font-size: 3rem;
-
-    p {
-      font-size: 1.4rem;
-    }
-  }
-
-  .skill-logo-col {
-    text-align: center;
-  }
-
-  .has-tip {
-    border-bottom: none;
-    cursor: default;
-  }
-}
 
 .employer-logos {
 
@@ -452,7 +429,7 @@ ul {
 
   .project-links {
     .fa {
-      margin-right: 5px;   
+      margin-right: 5px;
       margin-bottom: 20px;
     }
   }

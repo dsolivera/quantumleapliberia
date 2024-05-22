@@ -9,7 +9,7 @@ permalink:        none
 # Setup
 title:            code.Oliver
 tagline:          'Notes, tinkerings, experiments'
-url:              https://soliveras.com/
+url:              https://quantumleapliberia.com/
 paginate:         3
 paginate_path:    "blog/page:num"
 excerpt_separator: "<!--more-->"
@@ -17,18 +17,16 @@ baseurl:          /
 highlighter:      rouge
 author:
   name:          Oliver Sumo
-  url:            https://soliveras.com
-  email:          solivera2g3@gmail.com
-  twitter:        solivera2g3
+  url:            https://www.quantumleapliberia.com
+  email:          quantumleaplib@gmail.com
 
 # Custom vars
-github:
-  repo:           https://github.com/dsolivera/soliveras.com.git
-blog_masthead_pages:       
-  About:          '/about'
-  Projects:       '/projects'
-  Resume:         '/resume'
-personal_external_links:
-  linkedin:        'https://www.linkedin.com/in/solivera/'
-  twitter:         'https://twitter.com/solivera2g3'
-  github:          'https://github.com/dsolivera'
+# github:
+  # repo:           https://github.com/dsolivera/soliveras.com.git
+blog_masthead_pages:
+  Residential:          '/residential'
+  Business:       '/business'
+# personal_external_links:
+  # linkedin:        'https://www.linkedin.com/in/solivera/'
+  # twitter:         'https://twitter.com/solivera2g3'
+  # github:          'https://github.com/dsolivera'

@@ -1,6 +1,5 @@
-- name: Coming soon... 
-  description: "This page will be updated with projects upon completion."
-  repository: 
-  weblink: 
+- name: Coming soon...
+  description: "Our Business services will be updated..."
+  repository:
+  weblink:
   featured: yes
-

@@ -1,12 +1,12 @@
-var greetingLine1 = "a Software developer who loves solving problems and learning continuously;";
-var greetingLine2 = "an Alumnus of University of California, San Diego.";
-var greetingLine3 = "I am a tech guy who loves cars and just tinkering in general.";
+var greetingLine1 = "Quantum Leap Liberia offers comprehensive IT services to meet all your technology needs.;";
+var greetingLine2 = "Our services include web hosting, managed security, VPN, IoT solutions, data backup and disaster recovery, managed WiFi, consulting, professional services, professional installation of internet equipment, and web development/IT support.;";
+var greetingLine3 = " Discover the future of IT with Quantum Leap Liberia.;";
 
 
 $(document).ready(function() {
     $(document).foundation();
     new FastClick(document.body);
-    
+
     $(".scroll-prompter").hide();
 
     $(".scroll-prompter a").click(function() {
