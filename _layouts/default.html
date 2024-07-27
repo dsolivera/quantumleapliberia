@@ -1,32 +1,27 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<html class="no-js">
+  <head>
 
-  {% include head.html %}
+    {% include head.html %}
 
+  </head>
   <body>
-    <div class="masthead">
-      <nav class="link-to-home">
-        <a href="/"><i class="fa fa-home"></i>&nbsp;&nbsp;&nbsp;<strong>Quantum Leap Liberia</strong></a>
-      </nav>
-      <nav class="masthead-links">
-      {% for page in site.blog_masthead_pages %}
-        &nbsp;
-        <small><a href="{{ page[1] }}">{{ page[0] }}</a></small>
-        &nbsp;
-      {% endfor %}
-      </nav>
-    </div>
-    <div class="container content">
 
-      {{ content }}
 
-    <div class="footer">
-      <p>
-        &copy; {{ site.time | date: '%Y' }} QuantumLeapLiberia Inc. All rights reserved.
-        <span style="float:right;">Email: quantumleaplib@gmail.com</span><br/>
-      </p>
-    </div>
-  </div>
+    {% include header.html %}
 
-  </body>
+
+    {{ content }}
+
+
+
+
+
+
+
+
+
+    {% include footer.html %}
+
+    </body>
 </html>
